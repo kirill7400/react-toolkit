@@ -28,6 +28,53 @@
   padding: 20px;
 }
 
+.findFilms, .filmFavorites {
+  width: 850px;
+  height: 90vh;
+  overflow: auto;
+  border: 1px solid white;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.filmCard {
+  display: flex;
+  width: 600px;
+  gap: 15px;
+}
+
+.filmDetailCard {
+  width: 850px;
+  height: 60vh;
+  border: 1px solid white;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.filmCard-poster {
+  cursor: pointer;
+}
+
+.filmCard-img {
+  width: 150px;
+}
+
+.findFilms-search {
+  display: flex;
+  gap: 10px;
+}
+
 .factView-input {
   width: 150px;
   height: 20px;
